@@ -1,0 +1,190 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    margin: 0; /* Remove default margin to ensure full width */
+    background-color: #383737; /* Set a light gray background color */
+}
+
+.content {
+    width: 21cm; /* Set the width to match A4 size */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Set a white background color for the A4 sheet */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    
+}
+
+/* Number styles */
+.number {
+    color: red;
+}
+
+/* Header styles */
+.header p {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+/* Personal Information styles */
+.Personal_Information p {
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+/* Education styles */
+.education,
+.work_experience,
+.projects_research,
+.co-curricular,
+.skills,
+.references {
+   text-align: left;
+}
+
+
+.education h2,
+.work_experience h2 {
+    font-size: 12px;
+    margin-left: 38px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+.projects_research h2,
+.co-curricular h2,
+.skills h2,
+.references h2 {
+    font-size: 12px;
+    margin-left: 38px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.education .line,
+.work_experience .line,
+.projects_research .line,
+.co-curricular .line,
+.references .line {
+    border: none;
+    height: 1.4px; /* Adjust the height of the line */
+    background-color: black; /* Set the color of the line to black */
+    margin: 1px 35px; /* Adjusted margin for better spacing */
+   
+}
+
+.education p,
+.work_experience p,
+.projects_research p,
+.co-curricular p,
+.references p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 38px;
+    margin-bottom: -10px;
+    white-space: nowrap;
+}
+.references .requests {
+    margin-top: 30px;
+}
+.education .cumulative-gpa {
+    margin-bottom: 15px;
+}
+
+.left-column,
+.right-column {
+  display: inline-block;
+  width: 47.5%; /* Adjust width as needed */
+  vertical-align: top;
+}
+
+.left-column p {
+  text-align: left;
+}
+
+.right-column p {
+  text-align: right;
+}
+
+.right-column .graduation{
+    margin-bottom: 30px;
+}
+ 
+
+
+/* Achievement styles */
+.achievements {
+    text-align: left;
+}
+
+.achievements h2 {
+    font-size: 12px;
+    margin-left: 38px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.achievements .line {
+    border: none;
+    height: 1.5px; /* Adjust the height of the line */
+    background-color: black; /* Set the color of the line to black */
+    margin: 1px 35px; /* Adjusted margin for better spacing */
+}
+
+.achievements p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 38px;
+    margin-bottom: -10px;
+    white-space: nowrap;
+}
+
+.achievements .left-column-ach,
+.achievements .right-column-ach,
+.work_experience .left-column-ach,
+.work_experience .right-column-ach,
+.projects_research .left-column-ach,
+.projects_research .right-column-ach,
+.co-curricular .left-column-ach,
+.co-curricular .right-column-ach {
+    display: inline-block;
+    width: 47.5%; /* Adjust width as needed */
+    vertical-align: top;
+}
+
+.achievements .left-column p,
+.work_experience .left-column p,
+.projects_research .left-column p,
+.co-curricular .left-column p {
+    text-align: left;
+}
+
+.achievements .right-column p,
+.projects_research .right-column p,
+.co-curricular .right-column p{
+    text-align: right;
+}
+
+.work_experience .right-column p {
+    text-align: right;
+    margin-bottom: 85px;
+}
+ 
+.work_experience li,
+.projects_research li,
+.co-curricular li,
+.skills li {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 13px;
+    margin-bottom: 1.5px;
+    white-space: nowrap;
+}
+.co-curricular .right-column p {
+    text-align: right;
+    margin-bottom: 65px;
+}
+
+
+ 
